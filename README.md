@@ -1,4 +1,5 @@
 # recursion_merge-sort
+
 The merge-sort algorithm is a recursive algorithm that like any recursive function, seeks to divide and conquer.
 It is used to sort a numerical array by value.
 The algorithm essenially boils down to 3 simple steps.
@@ -9,4 +10,4 @@ Step 3: Merge the left and right side of the array.
 
 The benefits of this algorithm is that it's time complexity can be measured as n(Log(n)); It will always be faster than any n(n) algorithm due to log(n) always being smaller than itself, therefore n(log(n)) < n(n);
 
-*Will add jest testing later on.
+Added some simple jest testing.
